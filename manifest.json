@@ -1,0 +1,24 @@
+{
+  "name": "정육 도감 — 소·돼지 부위 가이드",
+  "short_name": "정육 도감",
+  "description": "한국식·서양식 정육 방식으로 나눠 보는 소고기·돼지고기 부위 도감. 부위별 특징, 조리법, 통고기 손질법, 좋은 고기 고르는 법.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f3ef",
+  "theme_color": "#2e2f33",
+  "lang": "ko",
+  "categories": ["food", "education", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-1024.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "소고기 부위", "url": "./index.html#/chart/beef/kr" },
+    { "name": "돼지고기 부위", "url": "./index.html#/chart/pork/kr" },
+    { "name": "조리법으로 찾기", "url": "./index.html#/cook" }
+  ]
+}
